@@ -72,3 +72,10 @@ ul.product-props {
     width: auto;
 }
 
+menu li {
+display: inline;
+}
+
+menu li::after{
+    content: " | ";
+}

@@ -1,25 +1,25 @@
-﻿using Microsoft.Extensions.Logging;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 
 namespace DutchTreat.Services
 {
-    public class NullMailService : IMailService
+  public class NullMailService : IMailService
+  {
+    private readonly ILogger<NullMailService> _logger;
+
+    public NullMailService(ILogger<NullMailService> logger)
     {
-        private readonly ILogger<NullMailService> logger;
-
-        public NullMailService(ILogger<NullMailService> logger)
-        {
-            this.logger = logger;
-        }
-
-        public void SendMessage(string to, string subject, string body)
-        {
-            //Log the message but don't send just yet
-            logger.LogInformation($"To: {to} Subject: {subject} Body: {body}");
-
-        }
+      _logger = logger;
     }
+
+    public void SendMessage(string to, string subject, string body)
+    {
+      // Log the message
+      _logger.LogInformation($"To: {to} Subject: {subject} Body: {body}");
+    }
+  }
 }

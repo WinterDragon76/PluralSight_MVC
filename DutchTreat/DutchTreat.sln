@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29102.190
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DutchTreat", "DutchTreat.csproj", "{C49DB1E9-6378-44E4-AC7F-8B8023EC40B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DutchTreat", "DutchTreat\DutchTreat.csproj", "{C56A8A91-5261-45B7-B698-AA52D1211E65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C49DB1E9-6378-44E4-AC7F-8B8023EC40B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C49DB1E9-6378-44E4-AC7F-8B8023EC40B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C49DB1E9-6378-44E4-AC7F-8B8023EC40B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C49DB1E9-6378-44E4-AC7F-8B8023EC40B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C56A8A91-5261-45B7-B698-AA52D1211E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C56A8A91-5261-45B7-B698-AA52D1211E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C56A8A91-5261-45B7-B698-AA52D1211E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C56A8A91-5261-45B7-B698-AA52D1211E65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {19B49B70-4970-471F-9926-789D35086292}
+		SolutionGuid = {5FAC77DB-06EA-40E5-B429-743389341D2F}
 	EndGlobalSection
 EndGlobal

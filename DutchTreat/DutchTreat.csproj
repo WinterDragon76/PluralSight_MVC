@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
@@ -6,8 +6,12 @@
 
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="OdeToCode.UseNodeModules" Version="1.0.6" />      
+    <PackageReference Include="OdeToCode.UseNodeModules" Version="1.0.6" />
+	//<PackageReference Include="Microsoft.EntityFrameworkCore.ToolsVersion="2.1.11-servicing-32099" />
+	
   </ItemGroup>
 
 </Project>

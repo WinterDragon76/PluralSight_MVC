@@ -10,7 +10,7 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="OdeToCode.UseNodeModules" Version="1.0.6" />
-	//<PackageReference Include="Microsoft.EntityFrameworkCore.ToolsVersion="2.1.11-servicing-32099" />
+	
 	
   </ItemGroup>
 
